@@ -1,0 +1,81 @@
+What do I need to start making node.js apps?
+- install node (node website) (npm installed with node)
+- install vscode
+
+What is the jetbrains IDE for javascript?
+Webstorm
+
+What is the v8 engine?
+- Written in C++
+- Executes javascript
+- Sends back results.
+- Written by google.
+- Open source.
+- Easily extended
+- Extend by node
+- Extend by chromee
+- compile javascript code to machine code.
+
+What uses the v8 javascript engine?
+- node
+- chrome
+
+What is the node.js runtime?
+- written in c++
+- runs as process
+- not in the browser
+- uses v8 javascript engine
+- file system
+- requests
+- web servers
+- backend related operations.
+- examples of apis provided:
+    - global - all variables with have to interact with
+    - process - all variables that we can use to interact with the node process that is running.
+
+What is the chrome runtime?
+- Written in C++
+- Uses v8 javascript engine
+- dom
+- browser
+- frontend related operations
+- examples of apis provided:
+    - document - interact with dom
+    - window - interact with browser window.
+
+What opens when you run node in the terminal?
+- repl
+    - read
+    - eval
+    - print
+    - loop
+
+Why should you use Node.js?
+- In-demand - Netflix, Walmart
+- Full Stack uses frontend for compiling assets and backend for file systems and web servers.
+- Event driven
+- Non-blocking I/O - execute multiple events without stopping execution but still get later response.
+- efficient
+- Largest open source library eco-system in the world. (node package manager)
+
+What is Node?
+- JavaScript runtime
+- Built on v8 engine
+- Runs javascript as a process outside of browser.
+- Provides useful for backend technologies (web servers and file systems)
+
+Where did non-blocking io originate?
+- browser to allow ui interactions while page loads.
+
+What does require() do?
+- gets functionality from another file.
+
+What happens when a non-blocking async call is used?
+- The request is started but execution continues.
+- Once the request is complete sent back to node.
+- Executed after stack completion.
+
+What can you do with NPM libraries?
+- validate emails
+- send emails
+- make web servers

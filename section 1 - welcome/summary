@@ -1,0 +1,10 @@
+What can you do with node?
+- interact with the file system
+- import open source third party libraries.
+- create web servers.
+- create apis.
+- communicate with third party apis.
+- setup authentication for a web app.
+- database storage.
+- send emails.
+- web sockets (real time apps)
