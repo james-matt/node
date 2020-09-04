@@ -1,0 +1,148 @@
+Video 3 - Intro
+-----------
+
+Bigger picture - build and launch own node apps
+
+Machines setup for class in this section.
+
+What node.js is?
+
+Video 4 - Installing Node.js and Visual Studio Code
+-----------
+
+Install node
+nodejs.org
+
+Use version 12 or greater
+
+node -v
+
+command not found means not installed correctly
+
+install vscode
+mac windows or linux
+extensions and themes
+community
+debug node inside of tool
+
+Webstorm IDE jetbrains
+
+Video 5 - What is Node.js?
+----------
+
+Node.js took javascript which was only in the browser and
+let it run as a process on your machine.
+
+build webservers
+file system access
+connect to databases
+
+other languages can usee this
+
+node runs javascript on the server.
+
+JavaScript runtime that runs on chromes v8 javascript engine.
+
+v8 is a google open source project.
+
+javascript engine, takes in javascript code and compiles it to machine code.
+
+v8 engine written in c++
+
+you could write a c++ application and import the v8 javascript engine and extend it.
+
+node.js - javascript runtime
+javascript - is the code.
+runtime - provides custom tools and functionalities.
+node - provides libraries for webservers - filesystems
+chrome - runtime to interact with the dom.
+
+chrome and node use v8 javascript engine
+
+when chrome runs javascript it can't run it. It passes
+javscript to the v8 engine and node runs it.
+
+chrome
+node
+v8 engine
+
+all written in c++ chrome and node just extend the v8 functionality with their own apis.
+
+chrome - dom
+node - filesystem
+
+chrome
+document.querySelector
+v8 doesn't know what that is.
+chrome runtime does
+
+node
+fs.readFile
+os.platform (gets if linux, mac, windows)
+v8 doesn't know what that is.
+part of the node.js runtime
+
+chrome and node use the v8 javascript engine that executes c++ code.
+
+run in terminal node
+node
+
+repl
+
+read
+eval
+print
+loop
+
+chrome
+----
+window - variable
+document - variable - interact with the dom.
+
+node
+-----
+global - variable
+process - variable - manipulate the node process that is running.
+
+Video 6 - Why should I learn node.js?
+-----------
+In-demand - walmart, netflix
+full-stack - frontend for compiling, backend - command line applications, apis
+
+Reasons why:
+- event driven
+- non-blocking I/O model
+- light weight
+- efficient
+
+I/O - input / output communicate with the machine it's running on.
+reading data from file on filesystems
+querying the databases
+I/O takes time
+Non-blocking I/O - (What node.js has) you can do other things while waiting
+on I/O to respond. You can make other requests. 
+
+Non-blocking I/O started in the browser to stop it form freezing up when I/O was happening.
+
+So you could interact with buttons while waiting on the page to load.
+
+require gets functionality from another file.
+
+call back pattern used to run when function called.
+
+start the processes.
+
+waits then prints.
+
+but since it only starts and doesn't wait. it's not blocking.
+
+it will executes as much as it can.
+
+async calls can run at the same time once started.
+
+node.js package eco-system (npm) is the largest ecosystem of open source libraries in the world.
+
+npm installed when node is.
+validate emails
+send emails
+make a web server
