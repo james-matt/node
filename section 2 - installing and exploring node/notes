@@ -146,3 +146,21 @@ npm installed when node is.
 validate emails
 send emails
 make a web server
+
+Video 7 - Your first node.js script
+-----------------
+Create projects directory.
+
+Node is a runtime that runs javascript.
+
+Files must be javascript.
+
+console.log()
+- actually provided by the runtime.
+
+Node docs on the node website.
+
+We created our first script hello.js
+
+Ran hello.js using
+- node hello.js

@@ -1,0 +1,67 @@
+Video 8 - Section Intro: Node.js Module System
+------------------
+Start the note taking app.
+Features of node.
+
+The node module system.
+- allows us to load functionality into the app.
+- connect to database
+- setup web server
+
+Types of modules:
+- core Modules - Included with node install.
+- third party modules
+- load in modules you have created.
+
+
+Video 9 - Importing Node.js Core Modules
+--------------------
+Some modules require being loaded in before using them.
+Some modules are global variables.
+File System module.
+Read, write, check if directory exists.
+
+fs.writeFileSync(file, data)
+fs.writeFile(file, data, callback)
+
+Allows us to write data to a file on our file system
+
+require is how we load modules in node.js
+modules return a variable.
+
+const fs = require('fs')
+
+There is a common module variable name people use for each
+required module. You can check that information in the docs.
+
+Video 10 - Importing your own files
+-------------------------
+
+add a utils.js
+
+console.log the file name in utils.js
+
+require('./utils.js')
+
+You will notice it logs once you require.
+
+create a name variable in utils
+
+all of your files have their own scope.
+
+app cannot access utils even though it was required.
+
+module.exports = name
+
+defines all of the things we share with other files.
+
+whatever we define to module.exports will be shared with other files that require.
+
+create add function
+
+export the add function
+
+challenge define and use a function in a new file.
+create a getNote function return 'Your notes..
+export new function from the new file.
+file should be notes.js

@@ -13,7 +13,7 @@ What is the v8 engine?
 - Open source.
 - Easily extended
 - Extend by node
-- Extend by chromee
+- Extend by chrome
 - compile javascript code to machine code.
 
 What uses the v8 javascript engine?
@@ -79,3 +79,7 @@ What can you do with NPM libraries?
 - validate emails
 - send emails
 - make web servers
+
+How do you run files with node.js?
+- they must be javascript files
+- node hello.js

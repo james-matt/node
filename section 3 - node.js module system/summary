@@ -1,0 +1,21 @@
+What is the node module system?
+- Allows us to load functionality into our apps.
+
+What types of modules are there?
+- core - included with install
+- third party
+- your own
+
+How can you access core modules?
+- Some are global variables
+- Some are loaded modules that need to be required.
+
+How do I work with the file system in Node?
+- File System core module
+
+How do you create output and require a module?
+- const library = require(relativePath)
+- module.exports = getNote
+
+Do files have their own scope?
+- Yes, you need to export things you want other files to access.
